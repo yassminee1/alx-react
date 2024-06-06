@@ -1,4 +1,3 @@
-
 import notificationData from '../../../../notifications.json';
 import { normalize, schema } from 'normalizr';
 
