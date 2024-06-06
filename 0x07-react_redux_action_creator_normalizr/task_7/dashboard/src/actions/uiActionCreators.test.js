@@ -1,4 +1,4 @@
-mport { LOGIN, LOGOUT, DISPLAY_NOTIFICATION_DRAWER, HIDE_NOTIFICATION_DRAWER } from "./uiActionTypes";
+import { LOGIN, LOGOUT, DISPLAY_NOTIFICATION_DRAWER, HIDE_NOTIFICATION_DRAWER } from "./uiActionTypes";
 import { login, logout, hideNotificationDrawer, displayNotificationDrawer } from "./uiActionCreators";
 import configureStore from "redux-mock-store";
 import thunk from "redux-thunk";
