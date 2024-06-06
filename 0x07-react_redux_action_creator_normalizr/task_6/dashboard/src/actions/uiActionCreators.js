@@ -1,4 +1,3 @@
-
 import { LOGIN, LOGOUT, DISPLAY_NOTIFICATION_DRAWER, HIDE_NOTIFICATION_DRAWER } from "./uiActionTypes";
 
 export function login(email, password) {
