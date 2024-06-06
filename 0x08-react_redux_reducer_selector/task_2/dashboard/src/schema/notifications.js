@@ -2,7 +2,7 @@ import * as notificationData from "../../../../notifications.json";
 import { normalize, schema } from "normalizr";
 
 const user = new schema.Entity("users");
-const message = new schema.Entity("messages", {}, { idAttribute: "guid" });
+const message = new schema.Entity("messages", {}, { idAttribute: "guide" });
 const notification = new schema.Entity("notification", {
   author: user,
   context: message,
