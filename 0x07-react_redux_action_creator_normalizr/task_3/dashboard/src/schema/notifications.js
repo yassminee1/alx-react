@@ -1,4 +1,4 @@
-mport * as notificationData from "../../../../notifications.json";
+import * as notificationData from "../../../../notifications.json";
 import { normalize, schema } from "normalizr";
 
 const user = new schema.Entity("users");
